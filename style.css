@@ -1,0 +1,66 @@
+/* style.css */
+body {
+  font-family: 'Nanum Myeongjo', serif;
+  color: #212d40;
+  font-size: 20px;
+  text-align: center;
+  background-color: #dedbd2;
+}
+
+h1 {  
+  font-family: 'Nanum Myeongjo', serif;
+  color: #212d40;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {  
+  font-family: 'Nanum Myeongjo', serif;
+  color: #212d40;
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {  
+  font-family: 'Nanum Myeongjo', serif;
+  color: #212d40;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+a {
+  color: #212d40;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #f8f9fa;
+}
+
+h4 {
+  font-family: 'Nanum Myeongjo', serif;
+  color: #212d40;
+  font-size: 10px;
+  text-align: center;
+}
+
+.card{
+	margin: 30px;
+	padding: 10px 5px;
+	border: solid 3px #006d77;
+	border-radius: 5px;
+	text-align: center;
+	background-color: ;
+	
+}
+.cards {
+  display: grid;
+  grid-template-columns: 2fr 2fr fr;
+  grid-gap: 16px;
+}
+
+
